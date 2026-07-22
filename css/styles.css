@@ -1,0 +1,1044 @@
+/* Batticaloa Early Years School — Custom Styles */
+
+/* Form inputs */
+.form-input {
+  width: 100%;
+  padding: 0.625rem 0.875rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  font-size: 0.875rem;
+  color: #1e293b;
+  background: #fff;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 1.25rem;
+  background: #2563eb;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 1.25rem;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-secondary:hover {
+  background: #e2e8f0;
+}
+
+.btn-danger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 1.25rem;
+  background: #ef4444;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-danger:hover {
+  background: #dc2626;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  color: #475569;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-icon:hover {
+  background: #f1f5f9;
+}
+
+.btn-sm {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+/* School logo */
+#school-logo,
+.logo-preview-box img,
+.school-logo {
+  width: 60px !important;
+  height: 60px !important;
+  min-width: 60px;
+  max-width: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  object-fit: cover;
+}
+
+.school-logo {
+  border-radius: 0.75rem;
+  background: #fff;
+  padding: 0.125rem;
+  flex-shrink: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.settings-logo-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.logo-preview-box {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.settings-warning-banner {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #fcd34d;
+  background: #fffbeb;
+}
+
+.settings-warning-banner-modal {
+  margin-bottom: 1rem;
+}
+
+.settings-warning-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #d97706;
+  flex-shrink: 0;
+  margin-top: 0.125rem;
+}
+
+.settings-warning-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #92400e;
+  margin-bottom: 0.25rem;
+}
+
+.settings-warning-text {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #78350f;
+}
+
+.settings-unsaved-hint {
+  font-size: 0.8125rem;
+  color: #b45309;
+  font-weight: 500;
+}
+
+.settings-confirm-summary {
+  font-size: 0.875rem;
+  color: #475569;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.875rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.settings-confirm-summary ul {
+  margin-top: 0.5rem;
+  padding-left: 1.125rem;
+  list-style: disc;
+}
+
+.settings-confirm-summary li {
+  margin-top: 0.25rem;
+}
+
+.settings-confirm-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  font-size: 0.875rem;
+  color: #334155;
+  cursor: pointer;
+  user-select: none;
+}
+
+.settings-confirm-check input {
+  margin-top: 0.2rem;
+  width: 1rem;
+  height: 1rem;
+  accent-color: #2563eb;
+  cursor: pointer;
+}
+
+.school-report-header {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+}
+
+.school-brand-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 0.625rem;
+  background: #fff;
+  padding: 0.125rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.school-brand-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e40af;
+  line-height: 1.3;
+}
+
+.school-brand-subtitle {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-top: 0.125rem;
+}
+
+/* Navigation */
+.nav-btn {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.nav-btn.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+/* Views — only the active section is shown */
+.view {
+  display: none !important;
+}
+
+.view.active {
+  display: block !important;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Stat cards hover */
+.stat-card {
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Badges */
+.badge-paid {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge-unpaid {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Fee toggle */
+.fee-toggle {
+  position: relative;
+  width: 3rem;
+  height: 1.625rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background 0.2s;
+  border: none;
+  flex-shrink: 0;
+}
+
+.fee-toggle.paid {
+  background: #22c55e;
+}
+
+.fee-toggle.unpaid {
+  background: #ef4444;
+}
+
+.fee-toggle::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.fee-toggle.paid::after {
+  transform: translateX(1.375rem);
+}
+
+/* Modals */
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.modal-content {
+  position: relative;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  animation: modalIn 0.2s ease;
+}
+
+@keyframes modalIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* ID Card — school branding + QR + student name */
+.id-card {
+  width: 240px;
+  padding: 1.25rem 1.25rem 1.5rem;
+  border-radius: 1rem;
+  border: 2px solid #2563eb;
+  background: #fff;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.id-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.375rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+  width: 100%;
+}
+
+.id-card-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.id-card-school {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1e40af;
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+.id-card-qr-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background: #fff;
+  border-radius: 0.75rem;
+}
+
+.id-card-qr-wrap img,
+.id-card-qr-wrap canvas {
+  display: block;
+  border-radius: 0.375rem;
+}
+
+.id-card-name {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+/* Attendance log item */
+.attendance-item {
+  display: flex;
+  align-items: center;
+  justify-content: between;
+  gap: 0.75rem;
+  padding: 0.625rem 0.875rem;
+  border-radius: 0.75rem;
+  background: #f8fafc;
+  border: 1px solid #f1f5f9;
+}
+
+.attendance-item .avatar,
+.student-avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  background: #dbeafe;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.student-avatar img,
+.attendance-item .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.student-avatar-lg {
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.125rem;
+}
+
+.student-avatar-md {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 0.875rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 0.375rem;
+}
+
+.form-label .required {
+  color: #ef4444;
+}
+
+/* Registration form */
+.register-form-wrap {
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.register-form-card {
+  background: #fff;
+  border-radius: 1rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.register-form-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #f1f5f9;
+  background: linear-gradient(to bottom, #f8fafc, #fff);
+}
+
+.register-form-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.register-form-subtitle {
+  font-size: 0.8125rem;
+  color: #64748b;
+  margin: 0.25rem 0 0;
+}
+
+.register-form {
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .register-form-header,
+  .register-form {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+}
+
+/* Compact photo strip */
+.register-photo-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.875rem 1rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Fixed-size avatar — overrides Tailwind img/svg defaults */
+.reg-avatar-box {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  min-width: 64px;
+  max-width: 64px;
+  min-height: 64px;
+  max-height: 64px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid #e2e8f0;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reg-avatar-box.has-photo {
+  border-color: #3b82f6;
+}
+
+.reg-avatar-icon {
+  width: 24px !important;
+  height: 24px !important;
+  max-width: 24px !important;
+  max-height: 24px !important;
+  color: #cbd5e1;
+  flex-shrink: 0;
+}
+
+.reg-avatar-box.has-photo .reg-avatar-icon {
+  display: none;
+}
+
+.reg-avatar-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64px !important;
+  height: 64px !important;
+  max-width: 64px !important;
+  max-height: 64px !important;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.reg-avatar-img.hidden {
+  display: none !important;
+}
+
+.register-photo-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.register-photo-label {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #475569;
+  margin: 0 0 0.375rem;
+}
+
+.photo-size-hint {
+  font-size: 0.6875rem;
+  color: #94a3b8;
+  margin: 0 0 0.375rem;
+}
+
+.register-photo-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+
+.register-section {
+  margin-bottom: 1.25rem;
+}
+
+.register-section-title {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #94a3b8;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.register-fields-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.875rem;
+}
+
+@media (min-width: 640px) {
+  .register-fields-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+.register-field-full {
+  grid-column: 1 / -1;
+}
+
+.register-form-actions {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.625rem;
+  margin-top: 0.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #f1f5f9;
+}
+
+@media (min-width: 480px) {
+  .register-form-actions {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .register-form-actions .btn-primary,
+  .register-form-actions .btn-secondary {
+    min-width: 9rem;
+  }
+}
+
+/* Webcam panel */
+.webcam-panel {
+  margin-bottom: 1.25rem;
+  padding: 0.875rem;
+  background: #0f172a;
+  border-radius: 0.75rem;
+}
+
+.webcam-video {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  display: block;
+  background: #000;
+}
+
+/* Scan result confirmation */
+.scan-result {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  animation: scanPop 0.35s ease;
+}
+
+@keyframes scanPop {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.scan-result-photo {
+  width: 64px;
+  height: 64px;
+  border-radius: 9999px;
+  object-fit: cover;
+  border: 3px solid #6ee7b7;
+  flex-shrink: 0;
+}
+
+.scan-result-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 9999px;
+  background: #a7f3d0;
+  color: #047857;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border: 3px solid #6ee7b7;
+  flex-shrink: 0;
+}
+
+.scan-result-info {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Fee card */
+.fee-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.15s;
+}
+
+.fee-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Toast */
+.toast {
+  pointer-events: auto;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  animation: toastIn 0.3s ease, toastOut 0.3s ease 2.7s forwards;
+  max-width: 360px;
+}
+
+.toast-success { background: #059669; }
+.toast-error { background: #dc2626; }
+.toast-info { background: #2563eb; }
+.toast-warning { background: #d97706; }
+
+@keyframes toastIn {
+  from { opacity: 0; transform: translateX(100%); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes toastOut {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(100%); }
+}
+
+/* QR Scanner */
+#qr-reader {
+  min-height: 280px;
+}
+
+#qr-reader video {
+  border-radius: 0.75rem;
+}
+
+#qr-reader__scan_region {
+  background: #0f172a !important;
+}
+
+/* Table row hover */
+#students-table-body tr {
+  border-bottom: 1px solid #f1f5f9;
+  transition: background 0.1s;
+}
+
+#students-table-body tr:hover {
+  background: #f8fafc;
+}
+
+#fees-table-body tr {
+  border-bottom: 1px solid #f1f5f9;
+  transition: background 0.1s;
+}
+
+#fees-table-body tr:hover {
+  background: #f8fafc;
+}
+
+#fees-table-body td {
+  padding: 0.75rem 1rem;
+}
+
+.btn-sm.btn-primary {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+/* Auth screen */
+.auth-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 50%, #fef3c7 100%);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+  border: 1px solid #e2e8f0;
+  padding: 2rem;
+}
+
+.auth-brand {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.auth-logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  margin: 0 auto 0.75rem;
+  display: block;
+}
+
+.auth-school-name {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e40af;
+  line-height: 1.3;
+}
+
+.auth-subtitle {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-top: 0.25rem;
+}
+
+.auth-panel-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.25rem;
+}
+
+.auth-panel-desc {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-bottom: 1.25rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 480px) {
+  .auth-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.auth-submit-btn {
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.auth-switch-text {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-top: 1.25rem;
+}
+
+.auth-link-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+}
+
+.auth-link-btn:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.auth-forgot-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -0.25rem;
+}
+
+.auth-forgot-link {
+  font-size: 0.8125rem;
+}
+
+#app-shell.hidden {
+  display: none !important;
+}
+
+#auth-screen.hidden {
+  display: none !important;
+}
+
+/* Print styles — QR + student name only */
+@media print {
+  @page {
+    margin: 1cm;
+    size: auto;
+  }
+
+  body * {
+    visibility: hidden !important;
+  }
+
+  #id-card-modal,
+  #id-card-content,
+  #printable-id-card,
+  #printable-id-card * {
+    visibility: visible !important;
+  }
+
+  #id-card-modal {
+    position: fixed !important;
+    inset: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #fff !important;
+    padding: 0 !important;
+    z-index: 99999 !important;
+  }
+
+  #id-card-modal .modal-content {
+    box-shadow: none !important;
+    padding: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    background: transparent !important;
+  }
+
+  .modal-backdrop,
+  .no-print {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  #printable-id-card {
+    position: relative !important;
+    transform: none !important;
+    left: auto !important;
+    top: auto !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+}
+
+/* Sidebar open on mobile */
+#sidebar.open {
+  transform: translateX(0);
+}
+
+#sidebar-overlay.visible {
+  display: block;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
